@@ -1,0 +1,11 @@
+int main()                      //1 23 456 78910 1112131415
+{
+  int ir,ic,ik=1;
+  for(ir=1;ir<=5;ir++){
+      for(ic=1;ic<=ir;ic++)
+      {
+          printf("%d ",ik++);
+      }
+      printf("\n");
+  }
+}
